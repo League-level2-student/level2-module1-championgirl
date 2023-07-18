@@ -59,11 +59,11 @@ public class GuestBook implements ActionListener {
 				 for (int i = 0; i < names.size(); i++) {
 						String s = names.get(i);
 						System.out.println(s);
-						
+						JOptionPane.showMessageDialog(null, s);
 					}
 				 
 		 
-		 JOptionPane.showMessageDialog(null, "Bob Banders, Sandy Summers, Greg Ganders,Donny Doners" );
+	//	 JOptionPane.showMessageDialog(null, "Bob Banders, Sandy Summers, Greg Ganders,Donny Doners" );
 		 
 		}
 }
